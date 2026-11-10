@@ -6,7 +6,7 @@
 
 ## À propos
 
-Développeur en France, passé par le BUT Informatique. Je construis surtout des outils auto-hébergés et documentés.
+Développeur en poste en France, passé par le BUT Informatique, pas en recherche. Sur mon temps libre, je construis surtout des outils auto-hébergés et documentés.
 
 - **Consoles portables** : un accueil console pour la ROG Ally, en Rust, essayé sur une ROG Ally RC71L
 - **LLM en local** : faire tourner de gros modèles sur du matériel grand public
