@@ -17,66 +17,60 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # Colors come from the profile avatar: indigo night, mauve, coral.
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=pierregouedar&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462&ring_color=e8908a
+          options: username=pierregouedar&show_icons=true&include_all_commits=true&hide=issues,prs,contribs&locale=fr&hide_border=true&rank_icon=github&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462&ring_color=e8908a
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=pierregouedar&layout=compact&langs_count=8&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1
+          options: username=pierregouedar&layout=compact&langs_count=6&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=pierregouedar&repo=canape&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
+          options: username=pierregouedar&repo=canape&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
           path: profile/pin-canape.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=pierregouedar&repo=klonk&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
+          options: username=pierregouedar&repo=klonk&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
           path: profile/pin-klonk.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=pierregouedar&repo=learnee&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
+          options: username=pierregouedar&repo=learnee&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
           path: profile/pin-learnee.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=pierregouedar&repo=murmure&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
+          options: username=pierregouedar&repo=murmure&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
           path: profile/pin-murmure.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=pierregouedar&repo=llm-local-stack&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
+          options: username=pierregouedar&repo=llm-local-stack&locale=fr&hide_border=true&bg_color=2b2940&title_color=e8908a&text_color=f3e3e1&icon_color=c96462
           path: profile/pin-llm-local-stack.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            profile/snake.svg?color_snake=#3c364f&color_dots=#ebedf0,#efc9c6,#d98f8b,#b05557,#7b4c58
-            profile/snake-dark.svg?palette=github-dark&color_snake=#e8908a&color_dots=#161b22,#3c364f,#7b4c58,#b05557,#e8908a
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add -A profile
           git commit -m "Update profile cards" || exit 0
           git push

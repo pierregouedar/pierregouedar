@@ -1,30 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3c364f,55:7b4c58,100:c96462&height=180&section=header&text=Pierre&fontColor=f3e3e1&fontSize=50&fontAlignY=36&desc=Self-hosting%20%C2%B7%20LLM%20en%20local%20%C2%B7%20Handheld%20gaming&descAlignY=58&descSize=16" alt="Pierre" width="100%">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=E8908A&center=true&vCenter=true&width=620&lines=Rust+%C2%B7+TypeScript+%C2%B7+Python;Un+accueil+console+pour+la+ROG+Ally;Des+LLM+qui+tournent+%C3%A0+la+maison;Tout+auto-h%C3%A9berg%C3%A9%2C+tout+document%C3%A9" alt="Typing">
-
-<a href="https://github.com/pierregouedar?tab=followers"><img src="https://img.shields.io/github/followers/pierregouedar?style=for-the-badge&logo=github&color=c96462&labelColor=3c364f" alt="Followers"></a>
-<img src="https://img.shields.io/badge/France-3c364f?style=for-the-badge&logo=googlemaps&logoColor=e8908a" alt="France">
-<img src="https://komarev.com/ghpvc/?username=pierregouedar&style=for-the-badge&color=c96462&label=VUES" alt="Vues du profil">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3c364f,55:7b4c58,100:c96462&height=180&section=header&text=Pierre&fontColor=f3e3e1&fontSize=50&fontAlignY=36&desc=Auto-h%C3%A9bergement%20%C2%B7%20LLM%20en%20local%20%C2%B7%20Consoles%20portables&descAlignY=58&descSize=16" alt="Pierre" width="100%">
 
 </div>
 
-## 👋 À propos
+## À propos
 
 Développeur en France, passé par le BUT Informatique. Je construis surtout des outils que j'utilise moi-même : auto-hébergés, documentés, testés sur du vrai matériel.
 
-- 🎮 **Handheld gaming** : un accueil console pour la ROG Ally, en Rust
-- 🧠 **LLM en local** : faire tourner de gros modèles sur du matériel grand public
-- 🏠 **Auto-hébergement** : mes données restent chez moi
+- **Consoles portables** : un accueil console pour la ROG Ally, en Rust
+- **LLM en local** : faire tourner de gros modèles sur du matériel grand public
+- **Auto-hébergement** : mes données restent chez moi
 
-## 🛠️ Stack
+## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,nextjs,react,python,php,symfony,postgres,docker,linux,powershell,windows&theme=dark&perline=12" alt="Stack">
+  <img src="https://skillicons.dev/icons?i=rust,ts,nextjs,react,python,php,symfony,postgres,docker,linux,powershell,windows&theme=dark&perline=12" alt="Rust, TypeScript, Next.js, React, Python, PHP, Symfony, PostgreSQL, Docker, Linux, PowerShell, Windows">
 </p>
 
-## 🚀 Projets
+## Projets
+
+<a href="https://github.com/pierregouedar/canape"><img src="https://raw.githubusercontent.com/pierregouedar/canape/HEAD/docs/images/fr/library.png" alt="Bibliothèque de jeux dans Canapé" width="100%"></a>
+
+<sub>Canapé sur ROG Ally, la bibliothèque de jeux pilotée à la manette · [site](https://pierregouedar.github.io/canape-site/) · capture du simulateur, valeurs fictives</sub>
 
 <p align="center">
   <a href="https://github.com/pierregouedar/canape"><img src="./profile/pin-canape.svg" alt="Canapé" width="49%"></a>
@@ -34,30 +32,11 @@ Développeur en France, passé par le BUT Informatique. Je construis surtout des
   <a href="https://github.com/pierregouedar/llm-local-stack"><img src="./profile/pin-llm-local-stack.svg" alt="llm-local-stack" width="49%"></a>
 </p>
 
-| Projet | En bref |
-|---|---|
-| 🛋️ **[Canapé](https://github.com/pierregouedar/canape)** · [site](https://pierregouedar.github.io/canape-site/) | Remplace l'accueil Xbox sur la ROG Ally : bibliothèque Steam/Epic/GOG/Xbox, auto TDP, profils par jeu. Rust + Slint. |
-| 🚗 **[Klonk](https://github.com/pierregouedar/klonk)** | Carnet d'entretien de véhicules auto-hébergé, rappels des échéances légales FR/UE. Next.js, PostgreSQL, PWA. |
-| 📚 **[Learnee](https://github.com/pierregouedar/learnee)** | Coach de langue : lire, résumer, écrire, correction notée sur 20 par IA, révisions FSRS. |
-| 🎙️ **[Murmure](https://github.com/pierregouedar/murmure)** | Assistant vocal français auto-hébergé : STT/TTS en local, outils instantanés, recherche web. |
-| ⚡ **[llm-local-stack](https://github.com/pierregouedar/llm-local-stack)** | Un modèle MoE de 35B sur un GPU de 10 Go avec llama.cpp + llama-swap, accessible via Tailscale. |
-
-## 📊 Stats
+## Activité
 
 <p align="center">
-  <img src="./profile/stats.svg" alt="Stats GitHub" height="170">
-  <img src="./profile/top-langs.svg" alt="Langages" height="170">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=pierregouedar&hide_border=true&background=2B2940&stroke=7B4C58&ring=E8908A&fire=C96462&currStreakNum=F3E3E1&sideNums=F3E3E1&currStreakLabel=E8908A&sideLabels=D9C2C4&dates=A8929A" alt="Streak">
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
-    <img src="./profile/snake.svg" alt="Snake de contributions">
-  </picture>
+  <img src="./profile/stats.svg" alt="Statistiques GitHub" height="150">
+  <img src="./profile/top-langs.svg" alt="Langages les plus utilisés" height="150">
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c96462,45:7b4c58,100:3c364f&height=100&section=footer" width="100%" alt="">
