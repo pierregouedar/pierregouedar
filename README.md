@@ -28,6 +28,6 @@ Développeur en poste en France, passé par le BUT Informatique, pas en recherch
 - **[Klonk](https://github.com/pierregouedar/klonk)** : carnet d'entretien de véhicules auto-hébergé, avec rappels des échéances légales en France et en Europe · `Next.js` `PostgreSQL`
 - **[Learnee](https://github.com/pierregouedar/learnee)** : coach de langue, avec lecture, résumé, écriture et correction notée sur 20 · `Next.js`
 - **[Murmure](https://github.com/pierregouedar/murmure)** : assistant vocal français auto-hébergé, reconnaissance et synthèse vocale en local · `Python`
-- **[llm-local-stack](https://github.com/pierregouedar/llm-local-stack)** : un modèle MoE de 35B sur un GPU de 10 Go avec llama.cpp et llama-swap · `PowerShell`
+- **[llm-local-stack](https://github.com/pierregouedar/llm-local-stack)** : un modèle MoE de 35B sur un GPU de 10 Go avec llama.cpp et llama-swap · `llama.cpp`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c96462,45:7b4c58,100:3c364f&height=100&section=footer" width="100%" alt="">
