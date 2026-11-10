@@ -15,7 +15,7 @@ Développeur en France, passé par le BUT Informatique. Je construis surtout des
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,ts,nextjs,react,python,php,symfony,postgres,docker,linux,powershell,windows&theme=dark&perline=12" alt="Rust, TypeScript, Next.js, React, Python, PHP, Symfony, PostgreSQL, Docker, Linux, PowerShell, Windows">
+  <img src="https://skillicons.dev/icons?i=rust,ts,nextjs,python,postgres,docker,linux&theme=dark" alt="Rust, TypeScript, Next.js, Python, PostgreSQL, Docker, Linux">
 </p>
 
 ## Projets
@@ -24,19 +24,10 @@ Développeur en France, passé par le BUT Informatique. Je construis surtout des
 
 <sub>Canapé sur ROG Ally, la bibliothèque de jeux pilotée à la manette · [site](https://pierregouedar.github.io/canape-site/) · capture du simulateur, valeurs fictives</sub>
 
-<p align="center">
-  <a href="https://github.com/pierregouedar/canape"><img src="./profile/pin-canape.svg" alt="Canapé" width="49%"></a>
-  <a href="https://github.com/pierregouedar/klonk"><img src="./profile/pin-klonk.svg" alt="Klonk" width="49%"></a>
-  <a href="https://github.com/pierregouedar/learnee"><img src="./profile/pin-learnee.svg" alt="Learnee" width="49%"></a>
-  <a href="https://github.com/pierregouedar/murmure"><img src="./profile/pin-murmure.svg" alt="Murmure" width="49%"></a>
-  <a href="https://github.com/pierregouedar/llm-local-stack"><img src="./profile/pin-llm-local-stack.svg" alt="llm-local-stack" width="49%"></a>
-</p>
-
-## Activité
-
-<p align="center">
-  <img src="./profile/stats.svg" alt="Statistiques GitHub" height="150">
-  <img src="./profile/top-langs.svg" alt="Langages les plus utilisés" height="150">
-</p>
+- **[Canapé](https://github.com/pierregouedar/canape)** : remplace l'accueil Xbox sur la ROG Ally, avec bibliothèque de jeux, auto TDP et profils par jeu · `Rust` `Slint`
+- **[Klonk](https://github.com/pierregouedar/klonk)** : carnet d'entretien de véhicules auto-hébergé, avec rappels des échéances légales en France et en Europe · `Next.js` `PostgreSQL`
+- **[Learnee](https://github.com/pierregouedar/learnee)** : coach de langue, avec lecture, résumé, écriture et correction notée sur 20 · `Next.js`
+- **[Murmure](https://github.com/pierregouedar/murmure)** : assistant vocal français auto-hébergé, reconnaissance et synthèse vocale en local · `Python`
+- **[llm-local-stack](https://github.com/pierregouedar/llm-local-stack)** : un modèle MoE de 35B sur un GPU de 10 Go avec llama.cpp et llama-swap · `PowerShell`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c96462,45:7b4c58,100:3c364f&height=100&section=footer" width="100%" alt="">
