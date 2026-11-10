@@ -6,11 +6,11 @@
 
 ## À propos
 
-Développeur en France, passé par le BUT Informatique. Je construis surtout des outils que j'utilise moi-même : auto-hébergés, documentés, testés sur du vrai matériel.
+Développeur en France, passé par le BUT Informatique. Je construis surtout des outils auto-hébergés et documentés.
 
-- **Consoles portables** : un accueil console pour la ROG Ally, en Rust
+- **Consoles portables** : un accueil console pour la ROG Ally, en Rust, essayé sur une ROG Ally RC71L
 - **LLM en local** : faire tourner de gros modèles sur du matériel grand public
-- **Auto-hébergement** : mes données restent chez moi
+- **Auto-hébergement** : carnet d'entretien de véhicules, coach de langue, assistant vocal
 
 ## Stack
 
